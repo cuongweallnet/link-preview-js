@@ -1,6 +1,6 @@
 {
   "name": "link-preview-js",
-  "version": "2.0.4",
+  "version": "2.0.4-fork-1",
   "description": "Javascript module to extract and fetch HTTP link information from blocks of text. ",
   "main": "build/index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   "dependencies": {
     "cheerio-without-node-native": "0.20.2",
     "cross-fetch": "3.0.4",
+    "htmlparser2-without-node-native": "^3.9.2",
     "url": "0.11.0"
   },
   "devDependencies": {
